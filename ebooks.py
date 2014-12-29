@@ -118,7 +118,7 @@ if __name__=="__main__":
                 ebook_tweet = "indeed " + ebook_tweet
             elif rando == 3:
                 print "no you guys you dont even understand" + ebook_tweet
-                ebook_tweet = "no you guys dont even understand " + ebook_tweet
+                ebook_tweet = "no you guys dont even understand " + ebook_tweet.upper()
             elif rando == 4:
                 print "guys guys GUYS" + ebook_tweet
                 ebook_tweet = "guys guys GUYS " + ebook_tweet
