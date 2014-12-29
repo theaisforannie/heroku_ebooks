@@ -125,7 +125,7 @@ if __name__=="__main__":
 
         # throw out tweets that match anything from the source account.
         if ebook_tweet != None and len(ebook_tweet) < 120:
-            continue
+            print ebook_tweet
             # for tweet in source_tweets:
             #     if ebook_tweet[:-1] not in tweet:
             #         continue
