@@ -113,9 +113,18 @@ if __name__=="__main__":
                 #say something crazy/prophetic in all caps
                 print "ALL THE THINGS"
                 ebook_tweet = ebook_tweet.upper()
+            elif rando == 2:
+                print "indeed" + ebook_tweet
+                ebook_tweet = "indeed " + ebook_tweet
+            elif rando == 3:
+                print "no you guys you dont even understand" + ebook_tweet
+                ebook_tweet = "no you guys dont even understand " + ebook_tweet
+            elif rando == 4:
+                print "guys guys GUYS" + ebook_tweet
+                ebook_tweet = "guys guys GUYS " + ebook_tweet
 
         # throw out tweets that match anything from the source account.
-        if ebook_tweet != None and len(ebook_tweet) < 110:
+        if ebook_tweet != None and len(ebook_tweet) < 140:
             # for tweet in source_tweets:
             #     if ebook_tweet[:-1] not in tweet:
             #         continue
