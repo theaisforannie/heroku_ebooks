@@ -124,11 +124,12 @@ if __name__=="__main__":
                 ebook_tweet = "guys guys GUYS " + ebook_tweet
 
         # throw out tweets that match anything from the source account.
-        if ebook_tweet != None and len(ebook_tweet) < 140:
+        if ebook_tweet != None and len(ebook_tweet) < 120:
+            continue
             # for tweet in source_tweets:
             #     if ebook_tweet[:-1] not in tweet:
             #         continue
-            #     else: 
+            #     else:
             #         print "TOO SIMILAR: " + ebook_tweet
             #         sys.exit()
                           
