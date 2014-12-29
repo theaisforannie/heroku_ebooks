@@ -115,13 +115,13 @@ if __name__=="__main__":
                 ebook_tweet = ebook_tweet.upper()
 
         #throw out tweets that match anything from the source account.
-        if ebook_tweet != None and len(ebook_tweet) < 110:
-            for tweet in source_tweets:
-                if ebook_tweet[:-1] not in tweet:
-                    continue
-                else: 
-                    print "TOO SIMILAR: " + ebook_tweet
-                    sys.exit()
+        # if ebook_tweet != None and len(ebook_tweet) < 110:
+        #     for tweet in source_tweets:
+        #         if ebook_tweet[:-1] not in tweet:
+        #             continue
+        #         else: 
+        #             print "TOO SIMILAR: " + ebook_tweet
+        #             sys.exit()
                           
             if DEBUG == False:
                 status = api.PostUpdate(ebook_tweet)
