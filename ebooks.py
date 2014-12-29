@@ -123,15 +123,15 @@ if __name__=="__main__":
         #             print "TOO SIMILAR: " + ebook_tweet
         #             sys.exit()
                           
-            if DEBUG == False:
-                status = api.PostUpdate(ebook_tweet)
-                print status.text.encode('utf-8')
-            else:
-                print ebook_tweet
+        #     if DEBUG == False:
+        #         status = api.PostUpdate(ebook_tweet)
+        #         print status.text.encode('utf-8')
+        #     else:
+        #         print ebook_tweet
 
-        elif ebook_tweet == None:
-            print "Tweet is empty, sorry."
-        else:
-            print "TOO LONG: " + ebook_tweet
+        # elif ebook_tweet == None:
+        #     print "Tweet is empty, sorry."
+        # else:
+        #     print "TOO LONG: " + ebook_tweet
     else:
         print str(guess) + " No, sorry, not this time." #message if the random number fails.
